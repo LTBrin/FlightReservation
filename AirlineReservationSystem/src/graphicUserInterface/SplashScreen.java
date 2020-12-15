@@ -84,15 +84,15 @@ public class SplashScreen extends Application{
 
 		// setting the fit height and width of the image view\
 
-		imageView.setFitHeight(445);
-		imageView.setFitWidth(500);
+		imageView.setFitHeight(300);
+		imageView.setFitWidth(300);
 
 		
 		//setting the preserve ratio of the image view
 
 
 
-		  Text text1 = new Text(25, 25, "Welcome to C&D Reservations ");
+		  Text text1 = new Text(25, 25, "Welcome to C&D Flights ");
 
 	        text1.setFill(Color.WHITE);
 
@@ -118,7 +118,7 @@ public class SplashScreen extends Application{
 
 		// Setting the title of the stage
 
-		stage.setTitle("Loading Image.....");
+		stage.setTitle("Welcome");
 
 
 		//Adding scene to stage
