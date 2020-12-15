@@ -132,10 +132,10 @@ public class Registration  extends Application{
 		ChoiceBox<String> choicebox = new ChoiceBox<>();
 		GridPane.setConstraints(choicebox, 1, 9);
 
-		choicebox.getItems().add(" What is your country Origin ");
-		choicebox.getItems().add(" What is your mother middle name ");
-		choicebox.getItems().add(" What is your first Elemenatry School ");
-		choicebox.getItems().add(" What is your pet name ");
+		choicebox.getItems().add(" What is your favorite food? ");
+		choicebox.getItems().add(" What is your favorite song? ");
+		choicebox.getItems().add(" Where is your first Elemenatry School? ");
+		choicebox.getItems().add(" What is your pet name? ");
 				
 		SecurityAnswer = new Label(" Security Answer ");
 		GridPane.setConstraints(SecurityAnswer, 1, 10);
